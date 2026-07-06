@@ -1,0 +1,166 @@
+* {
+	font-family: "Hack";
+	font-weight: bold;
+	font-size: 16px;
+	color: #dcdfe1;
+}
+
+#waybar {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	box-shadow: none;
+}
+
+#workspaces,
+#window,
+#tray{
+	background-color: #24283b;
+	margin-top: 6px;
+	padding: 4px 16px;
+	/*margin-top: 6px;*/
+	/*margin-left: 6px;*/
+	margin-right: 6px;
+	border-radius: 20px;
+}
+
+#custom-right-wrapper {
+	border: none;
+}
+
+/* #custom-timeindia, */
+#clock,
+#custom-power{
+	background-color: #24283b;
+	/*margin-top: 6px;*/
+	/*margin-right: 6px;*/
+	padding: 4px 6px;
+	border-radius: 0 20px 20px 0;
+	border-width: 0px;
+}
+
+#custom-timeindia {
+	background-color: #24283b;
+}
+
+#network,
+#custom-lock{
+	background-color: #24283b;
+	/*margin-top: 6px;*/
+	/*margin-left: 6px;*/
+	padding: 4px 2px;
+	border-radius: 20px 0 0 20px;
+	border-width: 0px;
+}
+
+#custom-reboot,
+#bluetooth,
+#battery,
+#pulseaudio,
+#backlight,
+#custom-temperature,
+#memory,
+#cpu{
+	background-color: #24283b;
+	/*margin-top: 6px;*/
+	padding: 4px 2px;
+	border-width: 0px;
+}
+
+#custpm-temperature.critical,
+#pulseaudio.muted {
+	color: #FF0000;
+	padding-top: 0;
+}
+
+#bluetooth:hover,
+#network:hover,
+#backlight:hover,
+#battery:hover,
+#pulseaudio:hover,
+#custom-temperature:hover,
+#memory:hover,
+#cpu:hover,
+#custom-timeindia:hover
+#clock:hover,
+#custom-lock:hover,
+#custom-reboot:hover,
+#custom-power:hover,
+#clock:hover,
+#custom-timeindia:hover,
+#window:hover {
+	background-color: rgba(70, 75, 90, 0.9);
+}
+
+#workspaces button:hover{
+	background-color: rgba(97, 175, 239, 0.2);
+	padding: 2px 8px;
+	margin: 0px 2px;
+	border-radius: 20px;
+}
+#workspaces button.empty {
+	background-color: #24283b;
+	color: #665a59;
+	padding: 2px 8px;
+	margin: 0 2px;
+	border-radius: 20px;
+}
+#workspaces button.active {
+	min-width: 30px;
+	background-color: #B9A88C;
+	color: #212121;
+	padding: 2px 8px;
+	margin: 0 2px;
+	border-radius: 15px;
+}
+#custom-debian{
+	background-color: #24283b;
+	color: #faefee;
+	padding: 2px 8px;
+	margin: 2px;
+	margin-top: 6px;
+	border-radius: 10px;
+}
+
+#workspaces button {
+	color: #faefee;
+	background: transparent;
+	border: none;
+	padding: 2px 8px;
+	margin: 0 2px;
+	font-weight: bold;
+	transition: 180ms all ease;
+}
+
+#waybar .modules-right {
+	/* border: 2px solid #7aa2f7; */
+	border: none;
+	border-radius: 10px;
+	margin-top: 6px;
+	margin-right: 6px;
+}
+
+#workspaces {
+	margin-left: 6px;
+	/* border: 2px solid #7aa2f7; */
+	border: none;
+	margin-top: 6px;
+	padding: 6px;
+}
+
+#tray {
+	margin-top: 6px;
+	/* border: 2px solid #7aa2f7; */
+	border: none;
+}
+
+#window {
+	/* border: 2px solid #7aa2f7; */
+	border: none;
+	margin-top: 6px;
+	font-weight: 500;
+	font-weight: bold;
+}
+
+window#waybar.empty #window {  
+ background:none;  
+}
