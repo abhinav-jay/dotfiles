@@ -1,0 +1,3 @@
+QTabBar::tab {
+    padding: 8px 12px;  /* Increase padding to make tabs taller */
+}
